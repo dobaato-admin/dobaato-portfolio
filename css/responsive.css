@@ -1,0 +1,49 @@
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .hero .cta-button {
+        padding: 0.5rem 1rem;
+    }
+
+    .about, .services, .technology, .team, .clients, .contact {
+        padding: 1rem;
+    }
+
+    .about h2, .services h2, .technology h2, .team h2, .clients h2, .contact h2 {
+        font-size: 1.5rem;
+    }
+
+    .about p, .services p, .technology p, .team p, .clients p, .contact p {
+        font-size: 0.875rem;
+    }
+
+    .founders, .team-members, .client-logos, .testimonials, .contact-info, .contact-form, .map {
+        flex-direction: column;
+    }
+
+    .founder, .member, .client, .testimonial, .contact-info div, .contact-form form, .map iframe {
+        max-width: 100%;
+    }
+}
